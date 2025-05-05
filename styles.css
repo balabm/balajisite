@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 100px 0;
+}
+
+.skill-card {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    display: none;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
